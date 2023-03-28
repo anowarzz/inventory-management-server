@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv").config();
 const colors = require("colors");
-// const DBConnect = require("./utils/dbConnect");
+
 
 const app = require("./app");
 
@@ -19,8 +19,7 @@ mongoose.connect(process.env.DATABASE, {
   console.log(err);
 })
 
-// database connection
-// DBConnect();
+
 
 // server
 const port = process.env.PORT || 5000;
