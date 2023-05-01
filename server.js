@@ -6,7 +6,6 @@ const colors = require("colors");
 const app = require("./app");
 
 
-
 // database connection
 mongoose.connect(process.env.DATABASE, {
   useNewUrlParser: true,
